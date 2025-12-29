@@ -4,8 +4,10 @@ let z =15;
 let result;
 
 if(x > z){
+    //z는x보다 작다
     result = "HI"
 } else{
+    //z는x보다 크다
     result = "HELLO"
 }
 
@@ -17,8 +19,9 @@ return(
 
         <pre>{
          `
-         x = ${x}     //10
-         result = ${result}   //z는 5보다 크다
+         x = ${x}
+         z = ${z}
+         result = ${result}  //  z는 x보다 크다
          ternaryResult = ${ternaryResult}
          `   
 
