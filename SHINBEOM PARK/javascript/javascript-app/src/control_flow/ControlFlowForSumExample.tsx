@@ -1,13 +1,10 @@
-export const ControlFlowForSummation = () => {
+export const ControlFlowForSumExample = () => {
     let loopResultArray = [];
     let summation = 0;
 
-    for (let i = 1; i <= 3; i++) {
+    for (let i = 1, j = 1; i <= 5; i += 2, j++) {
         loopResultArray.push(i);
-    }
-
-    for (let i = 1; i <= 3; i++) {
-        summation += loopResultArray[i - 1];
+        summation += loopResultArray[j - 1];
     }
 
 
